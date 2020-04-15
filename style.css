@@ -1,0 +1,135 @@
+
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  font-weight: 500;
+  color: #333333;
+  line-height: 2.0;
+}
+h2,h3,h4,h5{
+  margin: 0;
+  padding: 0;
+
+}
+h1{
+  color: #fff;
+  padding-top: 35px;
+}
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-style: italic;
+}
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+}
+p{
+  margin: 0 0 1em 0;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+section{
+  margin-bottom: 120px;
+  
+}
+
+.content-wrapper{
+  width: 1400px;
+  margin: 0 auto;
+}
+.header{
+  width: 100%;
+  padding-left: 50px;
+  
+  
+}
+.header-nav{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  
+}
+.header nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header nav ul li{
+  margin-right: 50px;
+}
+
+.mainvisual{
+  position: relative;
+  height: 600px;
+}
+.mainvisual img{
+  width: 750px;
+  height: 500px;
+  object-fit: cover;
+  margin-left: 30%;
+}
+
+.mainvisual h2{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.bg1{
+  background: darkorange;
+  height: 700px;
+  width: 45%;
+  position: absolute;
+  top: -18%;
+  left: 0;
+  z-index: -1;
+}
+
+.greething h2{
+  margin-bottom: 50px;
+  text-align: left;
+}
+.greething .contents{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+.greething .contents figure{
+  width: 50%;
+}
+
+.greething .content{
+  width: 48%;
+}
