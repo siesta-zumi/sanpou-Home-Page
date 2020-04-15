@@ -1,0 +1,25 @@
+.greething .contents{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+
+  h2 {
+    margin-bottom: 50px;
+    text-align: left;
+  }
+
+  figure {
+    width: 50%;
+  }
+  
+  .content{
+    width: 48%;
+  }
+
+}
+
+
+
+
