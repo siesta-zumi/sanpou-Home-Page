@@ -21,12 +21,15 @@ h2,h3,h4,h5{
 h1{
   color: #fff;
   padding-top: 35px;
+  
+  
 }
 p{
   margin: 0;
   padding: 0;
   font-size: 20px;
   font-style: italic;
+  
 }
 img{
   width: 100%;
@@ -65,4 +68,5 @@ a:hover{
 @import "work";
 @import "news";
 @import "recruit";
-
+@import "items";
+@import "footer";
