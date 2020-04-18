@@ -1,0 +1,46 @@
+footer {
+  width: 100%;
+  background:linear-gradient(to right, darkorange, 50%, lightyellow);
+
+}
+
+.content-wrapper {
+  width: 100%;
+  align-items: center;
+  
+}
+
+.address {
+  margin: 0 auto;
+  text-align: left;
+  margin-left: 50px;
+  h2 {
+    color:white;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 30px;
+    
+  }
+
+  li p {
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  p.access {
+    font-size: 15px;
+
+  }
+
+} 
+
+.copylight p {
+  text-align: center;
+  font-size: 0.75rem;
+  margin: 0;
+  line-height: 100px;
+  color: #333;
+  background-color: #e8e7e7;
+}

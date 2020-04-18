@@ -350,4 +350,50 @@ section {
   height: 300px;
   z-index: -1;
 }
+
+footer {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(darkorange), color-stop(50%), to(lightyellow));
+  background: linear-gradient(to right, darkorange, 50%, lightyellow);
+}
+
+.content-wrapper {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.address {
+  margin: 0 auto;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.address h2 {
+  color: white;
+  text-align: center;
+}
+
+.address h3 {
+  font-size: 30px;
+}
+
+.address li p {
+  line-height: 1.8;
+  text-align: left;
+}
+
+.address p.access {
+  font-size: 15px;
+}
+
+.copylight p {
+  text-align: center;
+  font-size: 0.75rem;
+  margin: 0;
+  line-height: 100px;
+  color: #333;
+  background-color: #e8e7e7;
+}
 /*# sourceMappingURL=style.css.map */
