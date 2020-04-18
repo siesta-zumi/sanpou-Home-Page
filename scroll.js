@@ -1,9 +1,12 @@
-jQuery(function() {
+$(function() {
   var home = $('#home_btn');
   var about = $('#about_btn');
   var works = $('#works_btn');
+  var items = $('#items_btn');
+  var news = $('#news_btn');
   var recruit = $('#recruit_btn');
   var contact = $('#contact_btn');
+
   home.click(function () {
     $('body,html').animate({
         scrollTop: 0
@@ -25,13 +28,27 @@ jQuery(function() {
     return false;
   });
   
-  recruit.click(function () {
+  items.click(function () {
     $('body,html').animate({
-        scrollTop: 3000
+        scrollTop: 2600
+    }, 500);
+    return false;
+  });
+
+  news.click(function () {
+    $('body,html').animate({
+        scrollTop: 3200
     }, 500);
     return false;
   });
   
+  recruit.click(function () {
+    $('body,html').animate({
+        scrollTop: 5300
+    }, 500);
+    return false;
+  });
+
   contact.click(function () {
     $('body,html').animate({
         scrollTop: 5200

@@ -169,6 +169,7 @@ section {
 .work h2 {
   margin-bottom: 60px;
   text-align: center;
+  color: white;
 }
 
 .work ul {
@@ -192,7 +193,8 @@ section {
 
 .work::before {
   content: '';
-  background: #e8e7e7;
+  background: -webkit-gradient(linear, left top, left bottom, from(darkorange), color-stop(50%), to(lightyellow));
+  background: linear-gradient(to bottom, darkorange, 50%, lightyellow);
   position: absolute;
   width: 100%;
   height: 300px;
@@ -264,11 +266,88 @@ section {
 
 .bg2 {
   position: absolute;
-  background: #e8e7e7;
+  background: -webkit-gradient(linear, right top, left top, from(darkorange), color-stop(50%), to(lightyellow));
+  background: linear-gradient(to left, darkorange, 50%, lightyellow);
   height: 400px;
   width: 45%;
   top: -20%;
   right: 0;
+  z-index: -1;
+}
+
+.items {
+  width: 100%;
+  padding-top: 40px;
+  position: relative;
+}
+
+.items h2 {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
+.items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.items ul li {
+  width: 200px;
+}
+
+.items ul li figure {
+  margin: 0;
+}
+
+.items figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 25px;
+}
+
+.items figure img {
+  height: 150px;
+  width: 150px;
+}
+
+.items h3 {
+  text-align: center;
+}
+
+.items .push {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.items p {
+  font-size: small;
+  margin-top: 10px;
+}
+
+.items .type {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.items::before {
+  content: '';
+  background: -webkit-gradient(linear, left top, left bottom, from(darkorange), color-stop(50%), to(lightyellow));
+  background: linear-gradient(to bottom, darkorange, 50%, lightyellow);
+  position: absolute;
+  width: 100%;
+  height: 300px;
   z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
