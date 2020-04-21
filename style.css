@@ -277,6 +277,7 @@ section {
 
 .items {
   width: 100%;
+  height: 500px;
   padding-top: 40px;
   position: relative;
 }
@@ -349,6 +350,14 @@ section {
   width: 100%;
   height: 300px;
   z-index: -1;
+}
+
+.item-info {
+  display: none;
+}
+
+.active {
+  display: block;
 }
 
 footer {
