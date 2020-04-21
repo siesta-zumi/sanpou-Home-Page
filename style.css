@@ -366,22 +366,29 @@ footer {
   background: linear-gradient(to right, darkorange, 50%, lightyellow);
 }
 
+footer h2 {
+  color: white;
+  text-align: center;
+}
+
 .content-wrapper {
+  margin-top: 30px;
   width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .address {
   margin: 0 auto;
   text-align: left;
-  margin-left: 50px;
-}
-
-.address h2 {
-  color: white;
-  text-align: center;
+  margin-left: 300px;
 }
 
 .address h3 {
@@ -404,5 +411,9 @@ footer {
   line-height: 100px;
   color: #333;
   background-color: #e8e7e7;
+}
+
+.map {
+  margin-right: 300px;
 }
 /*# sourceMappingURL=style.css.map */
