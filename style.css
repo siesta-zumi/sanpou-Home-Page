@@ -64,6 +64,7 @@ a:hover {
 .header {
   width: 100%;
   padding-left: 50px;
+  margin-bottom: 10px;
 }
 
 .header-nav {
@@ -207,11 +208,6 @@ section {
   margin-bottom: 180px;
 }
 
-.news .content-wrapper h2 {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
 .news .content-wrapper li {
   border-bottom: dotted 1px #dedede;
   padding-top: 20px;
@@ -229,6 +225,11 @@ section {
   font-size: .75em;
   color: #949494;
   margin-right: 80px;
+}
+
+.news {
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .recruit {
@@ -366,7 +367,7 @@ footer {
   background: linear-gradient(to right, darkorange, 50%, lightyellow);
 }
 
-footer h2 {
+footer .contact {
   color: white;
   text-align: center;
 }
